@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NikahanKita.id</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Untuk Scrip POPUP -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+    <!-- End -->
+    <style>
+        html {
+        scroll-behavior: smooth;
+        }
+
+
+        .satu:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+        .dua:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+        .tiga:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+        .empat:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+        .lima:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+
+
+        /* Hover Image Mempelai */
+
+        .hov1 {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        }
+
+        .hov1:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+        }
+        /* End Hover Image Mempelai */
+
+
+
+        /* Style PopUp */
+        #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        filter:alpha(opacity=70);
+        -moz-opacity:0.7;
+        -khtml-opacity: 0.7;
+        opacity: 0.7;
+        z-index: 100;
+        display: none;
+        }
+        .cnt223 a{
+        text-decoration: none;
+        }
+        .popup{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: none;
+        position: fixed;
+        z-index: 101;
+        }
+        .cnt223{
+        width: 100%;
+        height: 100%;
+        /* margin: 100px auto; */
+        background: #f3f3f3;
+        position: relative;
+        z-index: 103;
+        padding: 15px 35px;
+        /* border-radius: 5px; */
+        /* box-shadow: 0 2px 5px #000; */
+        background-image: url('bgnature.jpg');
+        }
+        .cnt223 p{
+        clear: both;
+        color: #555555;
+        /* text-align: justify; */
+        font-size: 20px;
+        font-family: sans-serif;
+        }
+        .cnt223 p a{
+        color: #d91900;
+        font-weight: bold;
+        }
+        .cnt223 .x{
+        float: right;
+        height: 35px;
+        left: 22px;
+        position: relative;
+        top: -25px;
+        width: 34px;
+        }
+        .cnt223 .x:hover{
+        cursor: pointer;
+        }
+        /* End Style PopUp */
+
+
+    </style>
+  </head>
+  
+  <body style="background-image: url('');">
+
+
+    <div class='popup' style="">
+        <div class='cnt223'>
+
+        <h1 class="text-center" style="font-family: Trebuchet MS;">Wira & Calis</h1>
+            <div>
+                <img src="one5.png" alt="" style="margin: auto; align-items: center; justify-content: center; display: flex; border-radius: 50%; width: 230px;">
+            </div>
+            <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt architecto fugit delectus unde, ipsa deleniti.
+            </p>
+            <div class="my-2">
+                <p class="text-center">
+                    Kepada Bapak/Ibu/Saudara/i
+                </p>
+                <p class="text-center">
+                    <i>Nama Tamu</i>
+                </p>
+                <p class="text-center">
+                    Maaf apabila ada kesalahan dalam penamaan.
+                </p>
+            </div>
+
+            <div class="text-center">
+                <a href='' class='close'><button class="btn btn-success btn-lg ">Buka Undangan</button></a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="row justify-content-center">
+        <div class="col-md-3" >
+            <div class="mt-5 fixed-top" style="margin-left: 5px;">
+                <audio id="myAudio" src="The Chainsmokers - Paris (Lyric).mp3" preload="auto" autoplay loop>
+                </audio>
+                <a onClick="togglePlay()"><img src="buttonmusic.png" alt="" width="60"></a>
+            </div>
+        </div>
+        <div class="col-md-6 rounded-3" style="background-color:#FDF0E0;">
+            <nav class="navbar fixed-bottom" style="background-image: url('one3.jpg'); z-index: 10;">
+                <div class="container-fluid justify-content-center">
+                  <a href="#satu" class="satu"><img src="one1.png" class="me-3" alt="Bootstrap" width="50" height="50"></a>
+                  <a href="#dua" class="dua"><img src="one1.png" class="me-3" alt="Bootstrap" width="50" height="50"></a>
+                  <a href="#tiga" class="tiga"><img src="one1.png" class="me-3" alt="Bootstrap" width="50" height="50"></a>
+                  <a href="#empat" class="empat"><img src="one1.png" class="me-3" alt="Bootstrap" width="50" height="50"></a>
+                  <a href="#lima" class="lima"><img src="one1.png" class="me-3" alt="Bootstrap" width="50" height="50"></a>
+                </div>
+            </nav>
+
+            
+            
+            <div class="row" id="satu">
+                <div class="col d-flex justify-content-start">
+                    <img src="bunga1.png" alt="" width="100" style="margin-bottom: -70px; margin-left: 10px;">
+                </div>
+                <div class="col justify-content-center">
+                    <div class="row">
+                        <marquee><p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Selamat Datang para Tamu Undangan yang Berbahagia..</p></marquee>
+                    </div>
+                    <div class="row text-center">
+                        <h4>Nama Tamu</h4>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <img src="bunga1.png" alt="" width="100" style="margin-bottom: -70px; margin-right: 10px;">
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center my-5 shadow-lg rounded-4 p-3" id="satu" style="background-color: ;">
+                <div class="row">
+                    <img src="one2.png" class="rounded-3" alt="">
+                </div>
+            </div>
+
+            <div class="text-center my-3" style="font-family: Segoe Print;">
+                <h1> Menuju Hari Spesial</h1>
+                <h1>Pernikahan</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eum molestiae quibusdam amet excepturi ab harum, rerum assumenda doloribus dolorum.
+                </p>
+            </div>
+            <div class="d-flex justify-content-center m-3 my-5">
+                <button type="button" class="btn btn-warning btn-lg me-2" id="days" style="font-family: Trebuchet MS; font-size: 30px;"></button>
+                <button type="button" class="btn btn-warning btn-lg me-2" id="hours" style="font-family: Trebuchet MS; font-size: 30px;"></button>
+                <button type="button" class="btn btn-warning btn-lg me-2" id="minutes" style="font-family: Trebuchet MS; font-size: 30px;"></button>
+                <button type="button" class="btn btn-warning btn-lg me-2" id="seconds" style="font-family: Trebuchet MS; font-size: 30px;"></button>
+            </div>
+
+            <div class="rounded-4 shadow-lg" id="dua" style="background-color: ;">
+                <div class="row">
+                    <div class="row justify-content-center">
+                        <img src="bismillah.png" style="width: 400px;">
+                            <p class="text-center p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut adipisci odio facilis illum culpa sint assumenda similique excepturi eveniet exercitationem.</p>
+                    </div>
+                    <div class="col m-3">
+                        <h3 class="text-center" style="font-family: century-gothic;">Wira Bratayuda</h3>
+                            <div class="hov1">
+                                <img src="one5.png" class="d-flex justify-content-center" alt="" style="margin: auto; align-items: center; justify-content: center; display: flex; border-radius: 50%; ">
+                            </div>
+                        <p class="text-center mt-2">
+                           Putra dari :
+                        </p>
+                        <p class="text-center">Ibu Santurini S.pd</p>
+                        <p class="text-center">Bapak Sarjani S.pd</p>
+                    </div>
+                    <div class="col m-3">
+                        <h3 class="text-center" style="font-family: century-gothic;">Calis Faturohmah</h3>
+                            <div class="hov1">
+                                <img src="one5.png" class="d-flex justify-content-center" alt="" style="margin: auto; align-items: center; justify-content: center; display: flex; border-radius: 50%; ">
+                            </div>                        
+                        <p class="text-center mt-2">
+                            Putri dari :
+                         </p>
+                         <p class="text-center">Ibu Santurini S.pd</p>
+                         <p class="text-center">Bapak Sarjani S.pd</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <p class="text-center p-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus minus beatae ullam veritatis fugiat atque non nesciunt saepe ducimus consectetur optio debitis, quidem mollitia alias natus veniam ipsam quos pariatur?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="text-center mt-5" id="tiga" style="font-family: century-gothic;">Denah Alamat Akad Nikah</h1>
+            <div class="row-md-3 my-3 rounded-4 shadow-lg" id="dua" style="background-color: ;">                
+                <div class="d-flex justify-content-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36120.422966994134!2d110.30677130888742!3d-8.013457931940577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7b00975eac533d%3A0x351bfe1453e22e36!2sPantai%20Parangtritis!5e0!3m2!1sid!2sid!4v1668176523155!5m2!1sid!2sid" width="500" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="d-flex justify-content-center m-3">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, nisi!
+                    </p>
+                </div>
+            </div>
+            <h1 class="text-center mt-5" id="empat" style="font-family: century-gothic;">Denah Alamat Resepsi</h1>
+            <div class="row-md-3 my-3 rounded-4 shadow-lg" id="dua" style="background-color: ;">                
+                <div class="d-flex justify-content-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36120.422966994134!2d110.30677130888742!3d-8.013457931940577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7b00975eac533d%3A0x351bfe1453e22e36!2sPantai%20Parangtritis!5e0!3m2!1sid!2sid!4v1668176523155!5m2!1sid!2sid" width="500" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="d-flex justify-content-center m-3">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, nisi!
+                    </p>
+                </div>
+            </div>
+
+
+        <div class="row" id="lima">
+            <h1 class="text-center mt-5" style="font-family: century-gothic;">Galeri Foto & Video</h1>
+            <div class="row-md-3 my-3 rounded-4 shadow-lg">
+                <div class="d-flex justify-content-center p-3">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xKO784wSpw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row-md-3 my-3 rounded-4 shadow-lg">
+                <div class="d-flex justify-content-center rounded-3 m-3" style="background-color: ;">
+                    <div class="row">
+                        <div class="col m-2">
+                            <img src="one5.png" class="" alt="">
+                        </div>
+                        <div class="col m-2">
+                            <img src="one5.png" class="" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center rounded-3 m-3" id="satu" style="background-color: ;">
+                    <div class="row">
+                        <div class="col m-2">
+                            <img src="one5.png" class="" alt="">
+                        </div>
+                        <div class="col m-2">
+                            <img src="one5.png" class="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="text-center my-5" style="font-family: century-gothic;">
+                <h1>Cerita Cinta</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta dolorem consequatur officia repudiandae veritatis adipisci quia fuga, deleniti laborum eum maiores esse assumenda. Enim debitis reprehenderit expedita quia excepturi aperiam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sunt earum, consequatur nihil sint numquam hic facilis enim sed excepturi?</p>
+            </div>
+
+            <div class="my-5" style="margin-top: 100px;">
+                <p style="margin-top: 200px;"></p>
+            </div>
+
+
+
+
+        </div>
+        <div class="col-md-3">
+            
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var myAudio = document.getElementById("myAudio");
+
+        function togglePlay() {
+        return myAudio.paused ? myAudio.play() : myAudio.pause();
+        };
+
+
+
+
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("days").innerHTML = days + "d "
+        document.getElementById("hours").innerHTML = hours + "h "
+        document.getElementById("minutes").innerHTML = minutes + "m "
+        document.getElementById("seconds").innerHTML = seconds + "s ";
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+        }, 1000);
+
+
+
+
+        // Script PopUp
+        $(function(){
+        var overlay = $('<div id="overlay"></div>');
+        overlay.show();
+        overlay.appendTo(document.body);
+        $('.popup').show();
+        $('.close').click(function(){
+        $('.popup').hide();
+        overlay.appendTo(document.body).remove();
+        return false;
+        });
+
+
+        $('.x').click(function(){
+        $('.popup').hide();
+        overlay.appendTo(document.body).remove();
+        return false;
+        });
+        });
+        // Script PopUp End
+
+
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
